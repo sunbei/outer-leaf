@@ -1,0 +1,36 @@
+*{margin:0;padding:0;outline:none;}
+html,body{font-family: 'arial', 'Tahoma','simsun','宋体';color:#666666;background:#fff;}
+ul li,ol li{list-style-type:none}
+a{text-decoration:none;blr:expression(this.onFocus=this.blur());color:#666666;}
+li:focus,a:focus,input:focus{outline:none;}
+fieldset,img{border:0;}
+q,blockquote{quotes:"" "";}
+q:before,q:after,blockquote:before,blockquote:after{content:"";}
+del{text-decoration:line-through;}
+ins{text-decoration:underline;}
+sup{vertical-align:super;}
+sub{vertical-align:sub;}
+cite,em,dfn{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th,td{font-weight:normal;text-align:left;}
+label,button{cursor:pointer}
+textarea{white-space:pre;resize:none;border:1px solid #ececec;}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block;border:0;}
+img{border:none; display:inline-block;}
+
+/*撑开父容器*/  
+.clearfix:after{  
+    content:".";   
+    display:block;   
+    height:0;   
+    clear:both;   
+    visibility:hidden;  
+}  
+.clearfix{  
+    zoom:1; /*针对IE*/  
+} 
+
+.fl{float:left;}
+.fr{float:right;}
+
+

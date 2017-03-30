@@ -1,0 +1,122 @@
+			.sear-header{
+				height:3.82609rem;
+				line-height:3.82609rem;
+				border-bottom:1px solid #ccc;
+			    box-sizing:border-box;
+				padding:0 1.26087rem;
+				
+				width:100%;
+			}
+			.sear-header form{
+				display:flex;
+				display:-moz-flex;
+				display:-webkit-flex;}
+			.sear-return{
+				
+				background:url(../images/icon.png) no-repeat 0 0/28rem 4.26rem;
+				width:1rem;
+				height:1.41rem;
+				margin-top:1rem;
+				display:inline-block;
+				
+
+			}
+			.menu-nav{
+				font-size:36px;
+			}
+			.text{
+				
+				vertical-align:middle;
+				margin-left:1rem;
+				font-size:0.9rem;
+				color:#a4a4a4;
+				flex:1;
+				-moz-flex:1;
+				-webkit-flex:1;
+				height:2.34783rem;
+				line-height:2.34783rem;
+				text-indent:0.69565rem;
+				border:1px solid #c8c8cd;
+				border-radius:0.52174rem;
+				padding:0 ;
+				margin-top:0.7rem;
+			}
+			.search{
+				
+				display:inline-block;
+				font-size:0.95652rem;
+				color:#fff;
+				background-color:#ff512f;
+				width:3.47826rem;
+				height:2rem;
+				border-radius:0.26087rem;
+				line-height:2rem;
+				text-align: center;
+				margin:0.8rem 0 0 0.8rem;
+			}
+			.sear-cont{
+				background:url(../images/beijing.jpg) repeat;
+				box-sizing:border-box;
+			}
+			sear-cont{}
+			section{
+				margin-top:0.43478rem;
+				background-color:#fff;
+			}
+			.sear-hist{
+				height:2.52174rem;
+				line-height:2.52174rem;
+				border-bottom:1px solid #a4a4a4;
+			}
+			.sear-hist p{
+				float:left;
+				font-size:0.95652rem;
+				color:#242424;
+			}
+			.sear-hist a{
+				float:right;
+				background:url(../images/icon.png) no-repeat -14.69rem -0.2rem/28rem 4.26rem;
+				width:1.39rem;
+				height:1.39rem;
+				margin-top:0.7rem;
+				display:inline-block;
+			}
+			.sear-gre a{
+				font-size:1.21739rem;
+				color:#9d9d9d;
+				height:2.69565rem;
+				line-height:2.69565rem;
+				margin:0 0.6rem;
+			}
+			.sear-seek a{
+				display: block;
+				font-size:0.95652rem;
+				color:#242424;
+				background:url(../images/icon.png) no-repeat -26.1rem -2.6rem/28rem 4.26rem;
+				height:1.5rem;
+				line-height:1.5rem;
+				text-indent: 2rem;
+			}
+
+			.sear-hot p{
+				font-size:0.95652rem;
+				color:#242424;
+			}
+			.sear-list{
+			text-align: center;
+			font-size:0;
+			box-sizing:border-box;
+			}
+			.sear-list a{
+				float:left;
+				color:#5b5b5b;
+				width:23%;
+				height:2.78261rem;
+				line-height:2.78261rem;
+				font-size:1rem;
+				display: inline-block;
+				background-color:#f1eff0;
+				border:1px solid #d2d2d2;
+				margin:0.43478rem 0.5% 0;
+				
+			}

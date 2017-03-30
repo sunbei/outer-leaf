@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<title>菜谱</title>
+<link rel="stylesheet" href="style/base.css">
+<link rel="stylesheet" href="style/menu.css">
+<script src="js/font.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".menu-header p").click(function(){
+			location.href=$(this).attr("src");
+		});
+	});
+</script>
+</head>
+<body>
+    <header class="menu-header clearfix">
+        <p class="menu-return" src="index.html">
+            <a href="#2"></a>
+        </p>
+        <h2>
+            菜谱
+        </h2>
+    </header>
+    <article class="menu-cont">
+        <section>
+            <div class="menu">
+                中餐
+            </div>
+            <div class="menu-img">
+                <a href="zhongcan.html"><img src="images/menu-01.jpg" alt="" /></a>
+            </div>
+            <div class="menu-text">
+                <a href="#2">
+                中餐（Chinese food），即指中国风味的餐食菜肴。其中有粤菜、川菜、鲁菜、湘菜等“八大菜系”
+                </a>
+            </div>
+        </section>
+        <section>
+            <div class="menu">
+                西餐
+            </div>
+            <div class="menu-img">
+                <a href="#2"><img src="images/menu-02.jpg" alt="" /></a>
+            </div>
+            <div class="menu-text">
+                <a href="#2">西餐是一种迥然不同于中国饮食的菜肴,现在已慢慢走入中国的家庭,被许多时尚的都市人所喜爱</a>				
+            </div>
+        </section>
+        <section>
+            <div class="menu">
+                创意
+            </div>
+            <div class="menu-img">
+                <a href="#2"><img src="images/menu-03.jpg" alt="" /></a>
+            </div>
+            <div class="menu-text">
+                <a href="#2">
+                生活需要情趣,每天面对着千篇一律的食物总是没有食欲,所以天天加一道创意菜,让生活更加有滋有味
+                </a>
+            </div>
+        </section>
+    </article>
+    
+<!--footer-->
+<footer class="footer">
+	<a class="home" href="index.html">
+    	<span></span>
+    	<span class="info">首页</span>
+    </a>
+    <a class="collocation" href="#2">
+    	<span></span>
+    	<span class="info">食材速搭</span>
+    </a>
+    <a class="recipe" href="menu.html">
+    	<span></span>
+    	<span class="info red">菜谱</span>
+    </a>
+    <a class="dietitian" href="yuyue.html">
+    	<span></span>
+    	<span class="info">营养师</span>
+    </a>
+    <a class="wo" href="me.html">
+    	<span></span>
+    	<span class="info">我的</span>
+    </a>
+</footer>
+
+</body>
+</html>

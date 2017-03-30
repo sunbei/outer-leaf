@@ -1,0 +1,53 @@
+
+/*header*/
+.header{position:fixed; left:0; top:0; width:100%; height:3.75rem; border-bottom:1px solid #ccc; display:box; display:-webkit-box; display:-moz-box; margin-bottom:4rem; background:#fff; z-index:2;}
+.header .left-arrow{display:block; box-flex:1; -webkit-box-flex:1; -moz-box-flex:1; padding-left:20px;}
+.header .left-arrow span{float:left; background:url(../images/icon.png) no-repeat; width:1.2rem; height:1.6rem; background-size:27.6rem 4.18rem; margin-top:1rem;}
+.header h2{font-size:1.536rem; line-height:3.75rem; text-align:center; border-bottom:2px solid #ff512f; color:#ff512f; box-flex:1; -webkit-box-flex:1; -moz-box-flex:1;}
+.header .share{display:block; width:10px; box-flex:1; -webkit-box-flex:1; -moz-box-flex:1; padding-right:20px;}
+.header .share span{float:right; background:url(../images/icon.png) no-repeat; width:1.5rem; height:1.6rem; background-size:27.6rem 4.18rem; margin-top:1rem; background-position:-1.3rem 0;}
+
+/*content*/
+.center{padding:4rem 0 6rem;}
+.me{position:relative; height:22rem; background:url(../images/bg01.png) no-repeat; background-size:100% 100%; color:#fff;}
+.me-tm{position:absolute; top:0; left:0; background:rgba(0,0,0,0.5); width:100%; height:100%;}
+.me-touX{position:absolute; top:4.34783rem; left:0; right:0; width:8.69565rem; height:8.69565rem; margin:0 auto; border:0.43478rem solid #d8d7d8; border-radius:4.78261rem; background:url(../images/touxiang.png) no-repeat; background-size:100%; text-indent:-99999px;}
+.guanzhu,.fensi{position:absolute; top:12.26087rem; width:3.30435rem; height:2.86957rem; border:0.13043rem solid #fff; border-radius:2.21739rem; text-align:center; font-size:0.86957rem; padding-top:0.43478rem;}
+.guanzhu{ left:6.6087rem;}
+.guanzhu dt{color:#3fe613;}
+.fensi{ right:6.6087rem;}
+.fensi dt{ color:#ff512f;}
+.nicheng{ position:absolute; bottom:1.30435rem; left:0; right:0; width:27.82609rem; margin:0 auto; text-align:center; color:#fff; font-size:1.47826rem; font-family:"katong";}
+.nicheng dd{ background:url(../images/jiejie.png) no-repeat; background-size:10%; padding-left:0.43478rem; font-size:0.95652rem; padding-top:1.21739rem;}
+@font-face {
+      font-family: "katong";
+      src:url(../font/方圆优皮体.ttf);
+      font-weight: normal;
+      font-style: normal;
+    }
+.content{ background:url(../images/bg.png) repeat; padding:0.43478rem 0 0;}
+.content a{ padding:0 2.17391rem; display:block; height:3.82609rem; line-height:3.82609rem; border-top:1px solid #eee; border-bottom:1px solid #eee; background:#fff; margin-bottom:0.43478rem; font-size:1.21739rem; color:#242424;}
+.content em{float:left; width:2.6087rem; height:2.6087rem; border-radius:1.30435rem; margin-top:0.6087rem; margin-right:1.86957rem; background-size:80%;}
+.em01{ background:#67c8ec url(../images/em01.png) no-repeat center center;}
+.em02{ background:#3fe613 url(../images/em02.png) no-repeat center center;}
+.em03{ background:#f2646c url(../images/em03.png) no-repeat center center;}
+.em04{ background:#b56aec url(../images/em04.png) no-repeat center center;}
+.em05{ background:#fca415 url(../images/em05.png) no-repeat center center;}
+.content span{ background:url(../images/icon01.png) no-repeat;background-size:100%; width:0.56522rem; height:1.04348rem; float:right; margin-top:1.47826rem;}
+
+/*footer*/
+.footer{position:fixed; left:0; bottom:0; width:100%; height:4rem; border-top:1px solid #ccc; background:#fff;}
+.footer a{float:left; width:20%; }
+.footer a span{display:block; margin:0 auto;}
+.footer a .info{text-align:center; font-size:0.94rem; color:#242424;}
+.footer a .red{color:#ff512f;}
+.footer .home span:nth-child(1){background:url(../images/icon.png) no-repeat; width:2.2rem; height:2.2rem; background-size:27.6rem 4.18rem;
+background-position:-3rem 0; margin-top:0.2rem;}
+.footer .collocation span:nth-child(1){background:url(../images/icon.png) no-repeat; width:2.2rem; height:2.2rem; background-size:27.6rem 4.18rem;
+background-position:-12rem 0; margin-top:0.2rem;}
+.footer .recipe span:nth-child(1){background:url(../images/icon.png) no-repeat; width:2.2rem; height:2.2rem; background-size:27.6rem 4.18rem;
+background-position:-5.4rem 0; margin-top:0.2rem;}
+.footer .dietitian span:nth-child(1){background:url(../images/icon.png) no-repeat; width:2.2rem; height:2.2rem; background-size:27.6rem 4.18rem;
+background-position:-7.8rem 0; margin-top:0.2rem;}
+.footer .wo span:nth-child(1){background:url(../images/icon.png) no-repeat; width:2.2rem; height:2.2rem; background-size:27.6rem 4.18rem;
+background-position:-9.8rem -2.2rem; margin-top:0.2rem;}

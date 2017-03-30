@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<title>菜友说评论</title>
+<link rel="stylesheet" type="text/css" href="style/base.css" />
+<link rel="stylesheet" type="text/css" href="style/cys-pl.css" />
+<script src="js/font.js"></script>
+<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".header h2").click(function(){
+			$(this).addClass("active").siblings().removeClass("active");
+		});
+		$('.wall').jaliswall({ item: '.article' });
+	});
+</script>
+
+</head>
+
+<body>
+<!--header-->
+<header class="header">
+	<a class="left-arrow" href="#2">
+		<span></span>
+    </a>
+    <h2>活动</h2>
+    <h2 class="active">菜友说</h2>
+    <h2>周边</h2>
+    <h2></h2>
+</header>
+
+   <a href="#2" class="aimg"><img src="images/banner2.png" alt=""/></a>
+   <article>
+     <a href="#2" class="aposition"><img src="images/imgyuan.png"/></a>
+     <section class="section1">
+        <p>说起团圆饭，很多人会想起水饺，今天给家人准备的水饺。怎么样？有食欲吧！</p>
+        <span>2015.10.22</span>
+     </section>
+     <section class="section2 clearfix">
+        <a href="#2" class="img2"><img src="images/people.png"/></a>
+        <div class="divfont">
+          <p class="pfont">看着好有食欲啊！</p>
+          <p class="pfont"><span class="span2">2015-10-24  12:30:47</span><p class="pchild"><a href="#2" class="anum"><a href="#2" class="aimgx"><img src="images/shou.png"/></a><span>31</span></a><a href="#2" class="anum2">展开回复</a></p></p>
+        </div>
+     </section>
+     <section class="section3 clearfix">
+        <a href="#2" class="img3"><img src="images/people.png"/></a>
+        <div class="section3p clearfix">
+          <span class="numspan"><a href="#2" class="spana"/><img src="images/daoh.png"/></a><span class="nub">12''</span></span>
+          <p class="pclass top"><a href="#2" class="anum"><a href="#2" class="aimgx"><img src="images/shou.png"/></a><span  class="nub">31</span></a><a href="#2" class="anum2 nub">展开回复</a></p>
+        </div>
+     </section>
+      <section class="section3 clearfix">
+        <a href="#2" class="img3"><img src="images/people.png"/></a>
+        <div class="section3p clearfix">
+          <span class="fontr">中国的饮食文化太丰富了</span>
+          <p class="pclass"><a href="#2" class="anum"><a href="#2" class="aimgx"><img src="images/shou.png"/></a><span class="nub">31</span></a><a href="#2" class="anum2 nub">展开回复</a></p>
+        </div>
+     </section>
+   </article>
+</body>
+</html>

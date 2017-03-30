@@ -1,0 +1,111 @@
+html,body{ min-width:320px; overflow:auto; overflow-x:hidden;}
+body{
+	background-image:url(../images/beijing.jpg) repeat;
+
+}
+img{
+	width:100%;
+}
+.logo{
+	position:relative;
+	width:100%;
+	height:20rem;
+}
+.logo img{ position:absolute; top:0; bottom:0; left:0; right:0; margin:auto; width:7.2rem; height:11.2rem;}
+.register-form p{
+	position:relative;
+	margin-bottom:1.39rem;
+}
+.register-form input{
+	font-size:1.217rem;
+	color:#c5c5c5;
+	width:100%;
+	height:3.13rem;
+	text-indent:3.826rem;
+}
+.register-form .acc span{
+	background:url(../images/icon.png) no-repeat -23.95rem 0/28rem 4.26rem;
+	width:1.3rem;
+	height:1.43rem;
+	position:absolute;
+	top:0.8rem;
+	left:2rem;
+}
+.register-form .pas span{
+	background:url(../images/icon.png) no-repeat -20.17rem 0/28rem 4.26rem;
+	width:1.3rem;
+	height:1.65rem;
+	position:absolute;
+	top:0.8rem;
+	left:2rem;
+}
+.register-form .all{
+	margin: 0 0.869rem;
+}
+.register-form p.dl a{
+	font-size:1.217rem;
+	color:#fff;
+	background:#ff512f;
+	display:block;
+	height:3.13rem;
+	line-height:3.13rem;
+	text-align: center;
+	margin-bottom:0.43rem;
+	border-radius:0.65rem;
+	
+}
+.register-form p.dl2 a{
+	font-size:1.13rem;
+	color:#6c6b6b;
+}
+
+.rea-bot{
+	font-size:1.13rem;
+	color:#6c6b6b;
+	text-align: center;
+	padding: 0 0.869rem;
+	box-sizing:border-box;
+}
+.three{
+	height:1.5rem;
+	line-height:1.5rem;
+	border-bottom:1px solid #ccc;
+}
+.ico{
+	display: flex;
+	flex-flow:row wrap;
+	height:6rem;
+}
+.ico li{
+	flex:1;
+	text-align: center;
+	font-size:0;
+}
+
+.ico li:nth-child(1){
+	background:url(../images/qq.png) no-repeat center center;
+	background-size:40%;	
+}
+.ico li:nth-child(2){
+	background:url(../images/wx.png) no-repeat center center;
+	background-size:40%;
+	
+}
+.ico li:nth-child(3){
+	background:url(../images/wb.png) no-repeat center center;
+	background-size:40%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

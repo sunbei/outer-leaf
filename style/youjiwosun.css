@@ -1,0 +1,65 @@
+/*header*/
+.header{position:fixed; left:0; top:0; width:100%; height:3.75rem; border-bottom:1px solid #ccc; display:box; display:-webkit-box; display:-moz-box; margin-bottom:4rem; background:#fff; z-index:2;}
+.header .left-arrow{display:block; box-flex:1; -webkit-box-flex:1; -moz-box-flex:1; padding-left:20px;}
+.header .left-arrow span{float:left; background:url(../images/icon.png) no-repeat; width:1.2rem; height:1.6rem; background-size:27.6rem 4.18rem; margin-top:1rem;}
+.header h2{font-size:1.536rem; line-height:3.75rem; text-align:center; border-bottom:2px solid #ff512f; color:#ff512f; box-flex:1; -webkit-box-flex:1; -moz-box-flex:1;}
+.header .share{display:block; width:10px; box-flex:1; -webkit-box-flex:1; -moz-box-flex:1; padding-right:20px;}
+.header .share span{float:right; background:url(../images/icon.png) no-repeat; width:1.5rem; height:1.6rem; background-size:27.6rem 4.18rem; margin-top:1rem; background-position:-1.3rem 0;}
+
+section{ background:url(../images/con_bg.jpg) repeat; padding:4rem 0.6rem 5rem;}
+
+section article:nth-child(1) .banner img{ width:100%;}
+section article:nth-child(1) p{ margin:2rem; font-size:1rem; color:#585858;}
+
+section article:nth-child(2){}
+section article:nth-child(2) h3{ text-align:center; font-size:1.1rem; color:#ff512f; margin-bottom:1.3rem;}
+section article:nth-child(2) p{ font-size:1rem; color:#464646;text-indent:2em;}
+.two_top{ float:left; margin-bottom:1.7rem;}
+.two_top img{ width:48%; float:left;}
+.two_top_right{ width:52%; float:left; box-sizing:border-box; padding-left:1.5rem;}
+.two_top_right h4{background:#ff512f; width:3rem; height:3rem; border-radius:1.5rem; text-align:center; line-height:3rem; color:#fff;}
+.two_top2 img{ width:48%; float:right;}
+.two_top2 .two_top_right{ padding-right:1.5rem; padding-left:0;}
+
+
+section article:nth-child(3){ margin-top:2rem;}
+section article:nth-child(3) h3{ text-align:center;font-size:1.1rem; color:#ff512f; margin-bottom:1.3rem;}
+section article:nth-child(3) dl{ width:25%; text-align:center; float:left;}
+section article:nth-child(3) dl img{ width:6.4rem;}
+
+section article:nth-child(4){ margin-top:2rem; position:relative;}
+section article:nth-child(4) h3{text-align:center;font-size:1.1rem; color:#ff512f; margin-bottom:1.3rem;}
+.huo_one{ margin-bottom:3rem;}
+.huo_one h4{ width:12%; font-size:1rem;color:#ff512f; float:left;}
+.huo_one span{ float:left; color:#fff; width:2rem;/* margin-left:0.6rem; */ width:7%;height:7%; background:#9f9f9f; border-radius:1.1rem; text-align:center; line-height:2rem; z-index:1; position:relative;}
+.huo_one p{ width:70%;/* margin-left:2rem;*/ float:left; font-size:1rem; color:#464646; text-indent:2em;}
+p.shutiao{ height:17rem; width:0.1rem; position:absolute; top:3rem; left:4.5rem; z-index:0; background:#9f9f9f;}
+
+section article:nth-child(5){}
+section article:nth-child(5) h3{text-align:center;font-size:1.1rem; color:#ff512f; margin-bottom:1.3rem;}
+section article:nth-child(5) dl{ width:25%; float:left; text-align:center;}
+section article:nth-child(5) dt img{ width:7.5rem;}
+section article:nth-child(5) dd{ font-size:1rem;}
+.liucheng{ width:100%;}
+
+section article:nth-child(6){ margin-top:2rem;}
+section article:nth-child(6) p{ text-align:center; color:#424242;}
+section article:nth-child(6) p:nth-child(1){ font-size:1.5rem; color:#ff512f;background:url(../images/botttom_03.jpg) no-repeat center; background-size:10rem;}
+section article:nth-child(6) p:nth-child(1) span{ background:url(../images/con_bg.jpg) repeat; padding:0 0.5rem;}
+section article:nth-child(6) p:nth-child(2){ color:#fff; width:8rem; background:#ff512f; margin:0 auto 0.8rem;}
+/*footer*/
+.footer{position:fixed; left:0; bottom:0; width:100%; height:4rem; border-top:1px solid #ccc; background:#fff;}
+.footer a{float:left; width:20%; }
+.footer a span{display:block; margin:0 auto;}
+.footer a .info{text-align:center; font-size:0.94rem; color:#242424;}
+.footer a .red{color:#ff512f;}
+.footer .home span:nth-child(1){background:url(../images/icon.png) no-repeat; width:2.2rem; height:2.2rem; background-size:27.6rem 4.18rem;
+background-position:-3rem 0; margin-top:0.2rem;}
+.footer .collocation span:nth-child(1){background:url(../images/icon.png) no-repeat; width:2.2rem; height:2.2rem; background-size:27.6rem 4.18rem;
+background-position:-12rem -2.2rem; margin-top:0.2rem;}
+.footer .recipe span:nth-child(1){background:url(../images/icon.png) no-repeat; width:2.2rem; height:2.2rem; background-size:27.6rem 4.18rem;
+background-position:-5.4rem 0; margin-top:0.2rem;}
+.footer .dietitian span:nth-child(1){background:url(../images/icon.png) no-repeat; width:2.2rem; height:2.2rem; background-size:27.6rem 4.18rem;
+background-position:-7.8rem 0; margin-top:0.2rem;}
+.footer .wo span:nth-child(1){background:url(../images/icon.png) no-repeat; width:2.2rem; height:2.2rem; background-size:27.6rem 4.18rem;
+background-position:-9.8rem 0; margin-top:0.2rem;}

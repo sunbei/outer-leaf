@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<title>周边</title>
+<link rel="stylesheet" type="text/css" href="style/base.css" />
+<link rel="stylesheet" type="text/css" href="style/zhoubian.css" />
+<script src="js/font.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".menu-return").click(function(){
+			location.href=$(this).attr("src");
+		});
+	});
+</script>
+</head>
+
+<body>
+<div class="bg">
+	<p class="menu-return" src="huodong.html">
+            <a href="#2"></a>
+    </p>
+	<img class="zb-top" src="images/zb-top.jpg" alt=""/>
+    <img class="zb-foot" src="images/zb-foot.jpg" alt=""/>
+    <div class="content">
+  	  <img src="images/phone.png" alt=""/>
+      <img src="images/zhuangshi.png" alt="" />
+    </div>
+    <div class="info">
+    	<p>选择困难户?</p>
+        <p><span>摇一摇</span>给你答案!</p>
+        <p>摇动手机，为纠结不定的你搜寻附近的美食，让选择不再困难</p>
+    </div>
+</div>
+</body>
+</html>
